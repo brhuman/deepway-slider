@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Deepway Galaxy Slider</title>
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+
+    <link rel="stylesheet" href="../styles/css/main.css">
+</head>
+<body>
+
+    <div class="app-wrapper">
+        <div class="deepway-slider">
+            <div>
+                <img src="./gallery/galaxy-generator/Screenshot_1.jpg" alt="Galaxy generator image"></div>
+            <!-- <div><img src="./gallery/galaxy-generator/Screenshot_2.jpg" alt="Galaxy generator image"></div> -->
+            <div><img src="./gallery/galaxy-generator/Screenshot_3.jpg" alt="Galaxy generator image"></div>
+            <div><img src="./gallery/galaxy-generator/Screenshot_4.jpg" alt="Galaxy generator image"></div>
+            <!-- <div><img src="./gallery/galaxy-generator/Screenshot_5.jpg" alt="Galaxy generator image"></div> -->
+            <div><img src="./gallery/galaxy-generator/Screenshot_6.jpg" alt="Galaxy generator image"></div>
+            <div><img src="./gallery/galaxy-generator/Screenshot_7.jpg" alt="Galaxy generator image"></div>
+            <div><img src="./gallery/galaxy-generator/Screenshot_8.jpg" alt="Galaxy generator image"></div>
+            <div><img src="./gallery/galaxy-generator/Screenshot_9.jpg" alt="Galaxy generator image"></div>
+            <!-- <div><img src="./gallery/galaxy-generator/Screenshot_10.jpg" alt="Galaxy generator image"></div> -->
+        </div>
+    </div>
+    
+    
+    
+    <!-- Jquery 3.3.1-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <!-- Slick slider 1.9.0-->
+    <script src="./js/libs/slick-1.9.0.min.js"></script>
+
+
+    <script>
+        $('.deepway-slider').slick({
+            dots: false,
+            infinite: true,
+            speed: 500,
+            fade: true,
+            cssEase: 'linear',
+        });
+    </script>
+
+    <!-- Main Javascript -->
+    <!-- <script src="./js/common.js"></script> -->
+</body>
+</html>
